@@ -1,0 +1,21 @@
+#container {
+	width: 900px;
+	height: 900px;
+	border-style: solid;
+	border-color: red;
+}
+
+#container div {
+	display: inline-block;
+	vertical-align: top;
+
+}
+
+
+div {
+	width: 25px;
+	height: 25px;
+	border-style: solid;
+	border-color: black;
+}
+

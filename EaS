@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Etch-a-Sketch</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+
+<body>
+	<button id="reset">Wipe Clean?</button>
+	<button id="resize">Reset and Resize?</button>
+	<p id="container"></p>
+
+
+	<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
+
