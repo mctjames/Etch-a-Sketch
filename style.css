@@ -1,21 +1,29 @@
+body {
+	background-color: #837E6D;
+}
+
 #container {
-	width: 900px;
-	height: 900px;
+	width: 500px;
+	height: 500px;
 	border-style: solid;
 	border-color: red;
+	border-width: 45px;
+	border-radius: 25px; 
+	margin: auto;
+	font-size: 0; 
 }
 
-#container div {
-	display: inline-block;
-	vertical-align: top;
-
-}
-
+/*
+the font-size: 0; gets rid of the gaps... it makes everythink but size 26/76 work
+*/
 
 div {
-	width: 25px;
-	height: 25px;
-	border-style: solid;
-	border-color: black;
+	display: inline-block;
+	font-size: 0; 
+	
 }
 
+.btn{
+	display: block;
+	margin: auto;
+}
